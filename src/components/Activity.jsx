@@ -17,6 +17,7 @@ function Activity({ branch, time, user, avatar, repo, token }) {
           Pushed to <span className='text-gray-600'>{repo}</span> (
           <span className='text-gray-600'>{token}</span> on
           <span className='text-gray-600'> {branch}</span>)
+          
         </p>
       </div>
     </div>
